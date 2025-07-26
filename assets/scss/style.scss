@@ -1,0 +1,23 @@
+// Cores Padrão
+$primary-color: #c47c5a;
+$secondary-color: rgba(196, 124, 90, 0.2);
+$third-color: rgba(255, 255, 255, 0.2);
+$fourth-color: #FFFFFF;
+$fifth-color: rgba(0, 0, 0, 0.7);
+$sixty-color: rgba(0, 0, 0, 0.5);
+$seventh-color: #1d252d;
+
+// Fonte
+$font-family-base: 'Schibsted Grotesk', sans-serif;
+
+// Root
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family-base;
+}
+
+// Styles
+@import 'header';
+@import 'hero';
