@@ -38,10 +38,6 @@
         margin: 0;
     }
 
-    @media (max-width: 330px) and (max-height: 650px) {
-        margin: 0;
-        height: 100%;
-    }
 
     .line-left {
         display: flex;
@@ -105,10 +101,6 @@
             flex-direction: column;
         }
 
-        @media (max-width: 330px) and (max-height: 650px) {
-            width: 100%;
-            height: 100%;
-        }
 
         .content-hero {
             display: flex;
@@ -122,10 +114,6 @@
                 height: auto;
             }
 
-            @media (max-width: 330px) and (max-height: 650px) {
-                height: auto;
-                padding: 1rem 0;
-            }
 
             .content-text {
                 display: flex;
@@ -153,10 +141,6 @@
                     }
                 }
 
-                @media (max-width: 330px) and (max-height: 650px) {
-                    padding: 4rem 0.5rem 2rem;
-                    min-height: auto;
-                }
 
                 .content-logo {
                     display: flex;
@@ -169,9 +153,6 @@
                         padding: 50px 0;
                     }
 
-                    @media (max-width: 330px) and (max-height: 650px) {
-                        padding: 25px 0;
-                    }
 
                     img {
                         width: 250px;
@@ -180,9 +161,6 @@
                             width: 180px;
                         }
 
-                        @media (max-width: 330px) and (max-height: 650px) {
-                            width: 140px;
-                        }
                     }
                 }
 
@@ -195,9 +173,6 @@
                         font-size: 1.8rem;
                     }
 
-                    @media (max-width: 330px) and (max-height: 650px) {
-                        font-size: 1.4rem;
-                    }
 
                     strong {
                         font-weight: 400;
@@ -232,10 +207,6 @@
                     }
                 }
 
-                @media (max-width: 330px) and (max-height: 650px) {
-                    padding: 1rem 0.5rem;
-                }
-
                 p {
                     display: flex;
                     justify-content: center;
@@ -253,10 +224,6 @@
                         font-size: 0.75rem;
                     }
 
-                    @media (max-width: 330px) and (max-height: 650px) {
-                        font-size: 0.7rem;
-                        padding: 0 0 10px 0;
-                    }
                 }
 
                 a {
@@ -281,10 +248,6 @@
                             filter: none;
                         }
 
-                        @media (max-width: 330px) and (max-height: 650px) {
-                            width: 9px;
-                            height: 9px;
-                        }
                     }
 
                     @media (max-width: 768px) {
@@ -292,11 +255,6 @@
                         font-size: 1.1rem;
                     }
 
-                    @media (max-width: 330px) and (max-height: 650px) {
-                        width: 100%;
-                        font-size: 0.9rem;
-                        padding: 0 0 25px 0;
-                    }
                 }
             }
         }
@@ -316,10 +274,6 @@
             flex-direction: row;
         }
 
-        @media (max-width: 330px) and (max-height: 650px) {
-            flex-direction: column;
-            height: auto;
-        }
 
         .content-box {
             display: flex;
@@ -336,10 +290,6 @@
                 border-top: none;
             }
 
-            @media (max-width: 330px) and (max-height: 650px) {
-                padding: 2rem 1rem;
-                height: auto;
-            }
         }
 
         .content-box-bottom {
@@ -363,10 +313,6 @@
                 border-top: none;
             }
 
-            @media (max-width: 330px) and (max-height: 650px) {
-                gap: 20px;
-                padding: 0.5rem;
-            }
 
             .content-box-text {
                 display: flex;
@@ -382,9 +328,6 @@
                     font-size: 0.65rem;
                     cursor: pointer;
 
-                    @media (max-width: 330px) and (max-height: 650px) {
-                        font-size: 0.6rem;
-                    }
                 }
 
                 img {
@@ -392,10 +335,6 @@
                     height: 13px;
                     filter: invert(56%) sepia(13%) saturate(1836%) hue-rotate(334deg) brightness(92%) contrast(84%);
 
-                    @media (max-width: 330px) and (max-height: 650px) {
-                        width: 11px;
-                        height: 11px;
-                    }
                 }
             }
 
@@ -408,9 +347,6 @@
                     font-size: 2.2rem;
                 }
 
-                @media (max-width: 330px) and (max-height: 650px) {
-                    font-size: 1.8rem;
-                }
             }
         }
     }
